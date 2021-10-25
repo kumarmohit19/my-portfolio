@@ -107,7 +107,7 @@
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
-      border: solid 3px #192a88; }
+      border: solid 3px #5164d3; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     -webkit-transform: translate3d(600px, 0, 0);
@@ -126,7 +126,7 @@
       -ms-transform: translate3d(0, 0, 0);
       -o-transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #192a88; }
+      color: #5164d3; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -141,7 +141,7 @@
     -ms-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #192a88; }
+      color: #5164d3; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -168,7 +168,7 @@
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    border: #192a88 3px solid; }
+    border: #5164d3 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -181,7 +181,7 @@
   .about-info .job {
     background: #404040;
     padding: 0.5rem;
-    border-bottom: #192a88 5px solid; }
+    border-bottom: #5164d3 5px solid; }
 
 * {
   box-sizing: border-box; }
@@ -233,7 +233,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #192a88; }
+  color: #5164d3; }
 
 main {
   padding: 4rem;
@@ -243,7 +243,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #192a88;
+        color: #5164d3;
         transition: all 0.5s ease-out;
         -webkit-transition: all 0.5s ease-out;
         -moz-transition: all 0.5s ease-out;
@@ -264,7 +264,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #192a88;
+      border-color: #5164d3;
       transition: all 0.5s ease-out;
       -webkit-transition: all 0.5s ease-out;
       -moz-transition: all 0.5s ease-out;
@@ -289,10 +289,10 @@ main {
     -o-transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #192a88;
-      color: #fff; }
+      background: #5164d3;
+      color: #000; }
       .boxes div:hover span {
-        color: #fff; }
+        color: #000; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -301,8 +301,8 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #192a88;
-    color: #fff; }
+    background: #5164d3;
+    color: #000; }
 
 .btn-dark {
   background: black;
@@ -374,7 +374,14 @@ main {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
+  main {
+    padding: 2rem; }
   main#home h1 {
     margin-top: 10vh; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .boxes div {
+    padding: 0.5rem;
+    font-size: 1.5rem; }
+    .boxes div :hover {
+      padding: 0.6rem; } }
