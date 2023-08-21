@@ -115,7 +115,7 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url('../img/profile-pic.jpg');
+      background: url('../img/profile-pic-small1.jpg');
       background-position: center;
       background-size: cover;
       border-radius: 50%;
@@ -184,6 +184,7 @@
   .bio-image {
     grid-area: bioimage;
     margin: auto;
+    max-width: 200px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;

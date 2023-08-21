@@ -60,7 +60,7 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #262626;
+    background: #0e1332;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     -webkit-transform: translate3d(0, -100%, 0);
@@ -79,7 +79,7 @@
       -ms-transform: translate3d(0, 0, 0);
       -o-transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #333;
+    background: #141a46;
     transform: translate3d(0, 100%, 0);
     -webkit-transform: translate3d(0, 100%, 0);
     -moz-transform: translate3d(0, 100%, 0);
@@ -99,7 +99,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/profile-pic.jpg");
+      background: url("../img/profile-pic-small1.jpg");
       background-position: center;
       background-size: cover;
       border-radius: 50%;
@@ -107,7 +107,7 @@
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
-      border: solid 3px #5164d3; }
+      border: solid 3px #ec9a85; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     -webkit-transform: translate3d(600px, 0, 0);
@@ -126,7 +126,7 @@
       -ms-transform: translate3d(0, 0, 0);
       -o-transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #5164d3; }
+      color: #ec9a85; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -141,7 +141,7 @@
     -ms-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #5164d3; }
+      color: #ec9a85; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -163,12 +163,13 @@
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
+    max-width: 200px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    border: #5164d3 3px solid; }
+    border: #ec9a85 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -179,15 +180,15 @@
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #404040;
+    background: #1a215a;
     padding: 0.5rem;
-    border-bottom: #5164d3 5px solid; }
+    border-bottom: #ec9a85 5px solid; }
 
 * {
   box-sizing: border-box; }
 
 body {
-  background: #333;
+  background: #141a46;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -204,7 +205,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(51, 51, 51, 0.7);
+    background: rgba(20, 26, 70, 0.7);
     z-index: -1; }
 
 h1,
@@ -221,7 +222,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(56, 56, 56, 0.5); }
+    background: rgba(22, 29, 78, 0.5); }
 
 a {
   color: #fff;
@@ -233,7 +234,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #5164d3; }
+  color: #ec9a85; }
 
 main {
   padding: 4rem;
@@ -243,7 +244,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #5164d3;
+        color: #ec9a85;
         transition: all 0.5s ease-out;
         -webkit-transition: all 0.5s ease-out;
         -moz-transition: all 0.5s ease-out;
@@ -264,7 +265,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #5164d3;
+      border-color: #ec9a85;
       transition: all 0.5s ease-out;
       -webkit-transition: all 0.5s ease-out;
       -moz-transition: all 0.5s ease-out;
@@ -289,7 +290,7 @@ main {
     -o-transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #5164d3;
+      background: #ec9a85;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -301,7 +302,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #5164d3;
+    background: #ec9a85;
     color: #000;
     transition: all 0.5s ease-out;
     -webkit-transition: all 0.5s ease-out;
@@ -314,13 +315,13 @@ main {
   color: #fff; }
 
 .btn-light {
-  background: #b3b3b3;
+  background: #7f8ada;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #1a1a1a;
+  background: #090b1e;
   color: #fff;
   height: 60px; }
 

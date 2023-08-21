@@ -1,1 +1,4 @@
 node_modules
+
+# for fetching projects from github using secret key 
+js/work_project.js 
